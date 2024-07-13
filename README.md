@@ -27,5 +27,4 @@ Run `fdotpush` to commit local changes and push.
 Run `fdotex <function name>`:
 1. Move the given function to the plugin directory here.
 2. `fdotsync`
-2. `fdotpush`
-
+3. `fdotpush`
