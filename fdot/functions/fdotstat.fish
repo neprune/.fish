@@ -15,5 +15,7 @@ function fdotstat --description 'Status of the fdot setup.'
 
     echo ""
     echo "===> Git status of fdot checkout:"
-    cd $fdot_dir && git status --porcelain | sed 's/^/ - /'
+    pushd $fdot_dir
+    git status --porcelain | sed 's/^/ - /'
+    popd
 end
